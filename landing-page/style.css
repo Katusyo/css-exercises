@@ -70,3 +70,16 @@ button.sign-up {
   color: white;
   margin-top: 10px;
 }
+
+.image-placeholder {
+  background: gray;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
