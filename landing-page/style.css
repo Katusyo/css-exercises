@@ -1,0 +1,38 @@
+.header {
+    font-family: 'Roboto';
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 20px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+button.sign-up {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  margin-top: 10px;
+}
