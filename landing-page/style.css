@@ -20,7 +20,7 @@
     font-weight: 600;
     width: 600px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     margin-right: auto;
 }
 
@@ -82,4 +82,31 @@ button.sign-up {
 
 .text {
   text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.box {
+  background: white;
+  border: 3px solid #3882F6;
+  border-radius: 13px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-content: center;
+  flex-direction: column-reverse;
+}
+
+.middle {
+    display: flex;
+    background: white;
+    color: black;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-left: 100px;
+    padding-bottom: 50px;
 }
