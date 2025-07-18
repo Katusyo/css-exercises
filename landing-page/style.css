@@ -96,19 +96,10 @@ button {
     padding-left: 50px;
 }
 
-.start-top {
-    display: flex;
-    width: fit-content;
-}
-
-.end-top {
-    display: flex;
-    width: fit-content;
-}
-
 .start-top, .end-top {
     display: flex;
     flex-direction: column;
+    width: fit-content;
 }
 
 .content {
@@ -125,12 +116,20 @@ button {
   display: flex;
 }
 
-.middle {
+.middle-top {
     display: flex;
+    justify-content: space-between;
     background: white;
     color: black;
     padding-left: 100px;
     padding-bottom: 50px;
+}
+
+.middle-bottom {
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+    width: 200px;
 }
 
 .footer {
