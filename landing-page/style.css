@@ -8,7 +8,8 @@ body {
 
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
     padding-left: 100px;
@@ -31,17 +32,17 @@ body {
 
 .main {
     background-color: #1F2937;
-    color: white;
-    font-size: 21px;
-    font-weight: 600;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
     display: flex;
-    width: 200px;
+    width: 500px;
 }
 
 .text-top {
-    color: white;
-    width: 260px;
-    font-size: 10px;
+    color: #E5E7EB;
+    width: 470px;
+    font-size: 18px;
     padding-bottom: 10px;
     display: flex;
     text-align: start;
@@ -102,34 +103,62 @@ button {
     width: fit-content;
 }
 
-.content {
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.middle-top {
     display: flex;
-    gap: 20px;
+    flex-direction: space-between;
+    background: white;
+    color: black;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
 }
 
 .box {
   background: white;
   border: 3px solid #3882F6;
   border-radius: 13px;
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
   display: flex;
+  justify-content: center;
 }
 
-.middle-top {
+.container {
     display: flex;
     justify-content: space-between;
-    background: white;
-    color: black;
-    padding-left: 100px;
-    padding-bottom: 50px;
+    gap: 52px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
 }
 
 .middle-bottom {
     display: flex;
-    justify-content: center;
-    background: lightgray;
+    flex-direction: column;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
     width: 200px;
+}
+
+.middle-top, .middle-bottom {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.inspiration {
+    display: flex;
+    align-items: column;
 }
 
 .footer {
