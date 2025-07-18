@@ -23,9 +23,10 @@ body {
 .top {
     background-color: #1F2937;
     display: flex;
-    flex-direction: column;
+    flex-direction: space-between;
     padding-left: 100px;
     padding-bottom: 50px;
+    padding-right: 100px;
 }
 
 .main {
@@ -83,10 +84,8 @@ button {
   background: gray;
   width: 250px;
   height: 100px;
-  margin-right: 100px;
   display: flex;
-  justify-content: space-between;
-  align-self: flex-end;
+  margin-left: 100px;
 }
 
 .text-box {
@@ -95,6 +94,16 @@ button {
     text-align: center;
     align-self: center;
     padding-left: 50px;
+}
+
+.start-top {
+    display: flex;
+    width: fit-content;
+}
+
+.end-top {
+    display: flex;
+    width: fit-content;
 }
 
 .start-top, .end-top {
