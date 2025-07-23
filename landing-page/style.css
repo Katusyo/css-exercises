@@ -72,6 +72,9 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sign-up {
@@ -196,6 +199,8 @@ h4 {
 
 .bottom {
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-direction: row;
     background: white;
     padding-left: 100px;
@@ -206,16 +211,18 @@ h4 {
 
 .attention {
     display: flex;
-    flex-direction: column;
     text-align: start;
+    justify-content: space-around;
+    align-content: center;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: auto;
+    width: 800px;
     color: white;
     background-color: #3882F6;
     border-radius: 10px;
+    gap: 10px;
 }
 
 .text-bottom {
@@ -223,7 +230,7 @@ h4 {
     text-align: start;
 }
 
-.bottom .sign-up {
+.sign-up {
     display: flex;
     align-self: flex-end;
     border: 1px solid white;
@@ -232,8 +239,12 @@ h4 {
 
 .start-bottom, .end-bottom {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-self: flex-end;
+}
+
+.end-bottom {
+    flex-direction: column;
 }
 
 .footer {
