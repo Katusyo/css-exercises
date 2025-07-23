@@ -187,7 +187,7 @@ h3 {
 h3 .italicized{
     color: #1F2937;
     font-size: 30px;
-    weight: 900;
+    font-weight: 900;
     font-style: italic;
 }
 
