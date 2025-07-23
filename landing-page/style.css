@@ -36,12 +36,12 @@ body {
     font-size: 48px;
     font-weight: 900;
     display: flex;
-    width: 500px;
+    width: auto;
 }
 
 .text-top {
     color: #E5E7EB;
-    width: 470px;
+    width: auto;
     font-size: 18px;
     padding-bottom: 10px;
     display: flex;
@@ -78,7 +78,7 @@ button {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
-  width: 80px;
+  width: 100px;
 }
 
 .image-placeholder {
@@ -112,7 +112,9 @@ h3 {
 
 .middle-top {
     display: flex;
-    flex-direction: space-between;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
     background: white;
     color: black;
     padding-left: 100px;
@@ -120,49 +122,116 @@ h3 {
     padding-right: 100px;
 }
 
-.box {
+.box, .subtext {
   background: white;
   border: 3px solid #3882F6;
   border-radius: 13px;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
+  width: 100px;
+  height: 100px;
+  gap: 20px;
+}
+
+.subtext {
+    border: 3px solid white;
+    display: flex;
+    flex-direction: space-evenly;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 50px;
+    font-size: 10px;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
-    gap: 52px;
-}
-
-.content {
-    display: flex;
     gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
 }
 
 .middle-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     background: #E5E7EB;
-    font-size: 36px;
-    font-style: light italic;
-    width: 200px;
-}
-
-.middle-top, .middle-bottom {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
+    width: auto;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
 }
 
 .inspiration {
     display: flex;
-    align-items: column;
+    flex-direction: column;
+}
+
+.italicized {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h3 .italicized{
+    color: #1F2937;
+    font-size: 30px;
+    weight: 900;
+    font-style: italic;
+}
+
+h4 {
+    text-align: right;
+}
+
+.bolded {
+    font-weight: bolder;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding-left: 100px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-right: 100px;
+}
+
+.attention {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: auto;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.text-bottom {
+    font-size: 10px;
+    text-align: start;
+}
+
+.bottom .sign-up {
+    display: flex;
+    align-self: flex-end;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.start-bottom, .end-bottom {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
 }
 
 .footer {
     height: 72px;
+    width: auto;
     background: #1F2937;
     color: white;
     display: flex;
