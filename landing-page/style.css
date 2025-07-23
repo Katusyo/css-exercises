@@ -138,11 +138,18 @@ h3 {
     text-align: center;
     justify-content: space-evenly;
     align-items: flex-start;
-    margin-left: 50px;
     font-size: 10px;
 }
 
 .container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+
+.sub-container {
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
